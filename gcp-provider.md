@@ -19,8 +19,7 @@
    EOF
    ```
 
-1. Download a service account key file (JSON)
-   Store the file in `$HOME/Downloads/gcp-credentials.json`
+1. Download a service account key file (JSON) and store the file in `$HOME/Downloads/gcp-credentials.json`.
 
 1. Create secret from GCP key file:
 
