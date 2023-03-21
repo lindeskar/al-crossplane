@@ -1,6 +1,6 @@
 # Crossplane lab
 
-## Install Crossplane and GCP provider
+## Install Crossplane
 
 Install Helm chart:
 
