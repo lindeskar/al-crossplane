@@ -2,14 +2,14 @@
 
 ## Install Crossplane
 
-Install Helm chart:
+1. Install Helm chart:
 
-```shell
-helm repo add crossplane-stable https://charts.crossplane.io/stable && helm repo update
+   ```shell
+   helm repo add crossplane-stable https://charts.crossplane.io/stable && helm repo update
 
-helm install crossplane crossplane-stable/crossplane --namespace crossplane-system --create-namespace
-```
+   helm install crossplane crossplane-stable/crossplane --namespace crossplane-system --create-namespace
+   ```
 
-## Install providers
+1. Install providers
 
-- [GCP](./gcp-provider.md)
+   - [GCP](./gcp-provider.md)
